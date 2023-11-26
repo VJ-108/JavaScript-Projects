@@ -1,0 +1,65 @@
+body{
+    background-color: indianred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    /* border: 1px solid; */
+}
+.title{
+    border-radius: 70px;
+    background-color: rgb(226, 222, 222);
+    border: 1px solid;
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    font-size: 3.5em;
+    text-decoration: underline;
+}
+.btn{
+    margin-top: 6em;
+    height: 3rem;
+    width: 8rem;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: indianred;
+    color: white;
+    cursor: pointer;
+}
+.content{
+    border: 1px solid;
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 70px;
+    background-color: rgb(212, 207, 207);
+    display: none;
+}
+.delete{
+    height: 3em;
+    width: 3em;
+    margin-right: 2em;
+    margin-top: 2em;
+    cursor: pointer;
+}
+.content div{
+    font-size: x-large;
+    margin: 3em;
+    margin-right: 0em;
+    text-align: center;
+    margin-top: 6em;
+}
+.title.active{
+    display: none;
+    transition: 0.8s;
+}
+.content.active{
+    display: flex;
+    transition: 0.8s;
+}

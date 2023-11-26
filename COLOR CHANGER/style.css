@@ -1,0 +1,45 @@
+body{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 740px; 
+    
+}
+.choose{
+    height: 100px;
+    width: 500px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+.SIMPLE,.HEX{
+    padding-top: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+.HEX{
+    float: right;
+}
+.SIMPLE:hover,.HEX:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.btn{
+    cursor: pointer;
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}

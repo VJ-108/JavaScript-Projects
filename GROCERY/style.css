@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(82, 232, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+.container{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    width: 40%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgb(217, 217, 217);
+}
+.container h1{
+    width: 100%;
+    /* border:0 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.msg{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: larger;
+    color: black;
+}
+.msg.error{
+    background-color: rgb(228, 94, 94);
+}
+.msg.edited{
+    background-color:rgb(27, 185, 185);
+}
+.msg.add{
+    background-color: rgb(49, 205, 49);
+}
+.search{
+    /* border: 1px solid; */
+}
+#text{
+    width: 85%;
+    height: 2em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.submit{
+    position: fixed;
+    width: 5%;
+    /* margin-right: 5px; */
+    float: right;
+    height: 2.3em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(54, 189, 242);
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: rgba(42, 173, 224);
+}
+.items{
+    /* border: 1px solid; */
+    margin-top: 4%;
+    width: 99%;
+}
+.list{
+    margin: 4% 0%;
+    /* border: 1px solid; */
+    font-size: 150%;
+}
+.buts{
+    /* border: 1px solid; */
+    height: 1.1em;
+    width: 3em;
+    float: right;
+    display: flex;
+}
+.but{
+    background-color: rgb(217, 217, 217);
+    border: none;
+    margin: 0 1%;
+    /* width: 50%; */
+    display: flex;
+}
+.img{
+    cursor: pointer;
+    width: 120%;
+    height: 100%;
+    float: right;
+    padding: 0.2% 1%;   
+}
+.clear{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.clr{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(217, 217, 217);
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}

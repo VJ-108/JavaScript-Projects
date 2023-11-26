@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(200, 195, 195);
+    color: black;
+    /* border: 1px solid black; */
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.counter{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.number{
+    font-size: 100px;
+}
+.buttons{
+    display: flex;
+    gap: 50px;
+    font-size: larger;
+    margin-top: 30px;
+}
+.btn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(221, 123, 123);
+}
+

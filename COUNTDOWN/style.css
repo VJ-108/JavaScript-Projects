@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(137, 233, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+}
+.container{
+    display: flex;
+    /* border: 1px solid; */
+    width: 90%;
+    height: auto;
+}
+.img-box{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+.img{
+    border-radius: 20px;
+    /* width: 120%; */
+    cursor: pointer;
+}
+.content{
+    /* border: 1px solid; */
+    padding: 1%;
+    width: 90%;
+
+}
+.content h3{
+    cursor: pointer;
+    font-size: 150%;
+    color: rgb(12, 138, 138);
+}
+.content span{
+    font-size: larger;
+    font-weight: 600;
+}
+.info{
+    /* border: 1px solid; */
+    height: auto;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 2%;
+    /* width: 70%; */
+    /* align-items: center; */
+}
+.btn{
+    position: relative;
+    display: flex;
+    /* border: 1px solid; */
+    margin-top: 8%;
+    height: 7.5em;
+    justify-content: center;
+    /* width: 70%; */
+    gap: 5%;
+}
+.time{
+    width: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 4em;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.time div{
+    font-size: small;
+}
+@media only screen and (max-width: 1380px) {
+    .container{
+        flex-direction: column;
+    }
+    .img{
+        max-width: 80%;
+    }
+    .content{
+        width: auto;
+    }
+}
